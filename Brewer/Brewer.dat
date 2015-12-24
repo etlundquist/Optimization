@@ -1,0 +1,11 @@
+/*********************************************
+ * Brewer Problem (Quantities of Ale & Beer)
+ * Author: elundquist
+ *********************************************/
+ 
+Products = {Ale, Beer};   
+Ingredients = {Corn, Hops, Malt};
+
+UnitProfits = [13, 23];
+MaxIngredients = [480, 160, 1190];
+UnitIngredients = [[5, 4, 35][15, 4, 20]]; 

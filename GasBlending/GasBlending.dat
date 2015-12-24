@@ -1,0 +1,15 @@
+/*********************************************
+ * Gas Blending Model
+ * Author: elundquist
+ *********************************************/
+ 
+RawTypes   = {R1, R2, R3, R4};
+BlendTypes = {B1, B2, B3};
+
+SheetConnection sheet("GasBlending.xlsx");
+ 
+Raw   from SheetRead(sheet,"Main!B3:E6"); 
+Blend from SheetRead(sheet,"Main!B10:E12");
+
+QuantityBlend  to SheetWrite(sheet,"Main!H3:J6");
+QuantityResale to SheetWrite(sheet,"Main!L3:L6");

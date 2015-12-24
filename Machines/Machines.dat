@@ -1,0 +1,16 @@
+/*********************************************
+ * OPL 12.6.2.0 Data
+ * Author: elundquist
+ * Creation Date: Oct 23, 2015 at 8:18:38 PM
+ *********************************************/
+ 
+Products = {A, B};
+Machines = {M1, M2, M3};
+ 
+MinQuantity = [75, 0];
+MaxQuantity = [140, 140];
+UnitProfits = [470, 420];
+ 
+MaxCapacity = [336, 336, 336];
+UnitCapacity = [[2, 0, 2][0, 2.5, 1.5]];
+FixedCosts = 50000;
